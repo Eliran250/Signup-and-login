@@ -1,0 +1,83 @@
+body{
+  background-image: url("https://i.pinimg.com/originals/c4/13/59/c413599bc57f7596d75bea1775b14169.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* fileComponent */
+form{
+  width: 400px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 40px;
+  background-color: transparent;
+  box-shadow: 0px 20px 20px 0px black;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(15px);
+  position: relative;
+  top: 120px;
+
+}
+input{
+  width: 95%;
+  margin-left: 8px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #f2f2f2;
+}
+label{
+  margin-left: 10px;
+  color: white;
+}
+.formTitle{
+  text-align: center;
+  color: white;
+}
+h1{
+  text-align: center;
+  color: white;
+}
+
+
+@keyframes scaredAnimaition {
+  0%{
+    transform:rotate(0deg) ;
+  }
+  50%{
+    transform: rotate(4deg);
+  }
+  100%{
+    transform: rotate(-4deg);
+  }
+
+}
+
+.sendButtons{
+  color: white;
+  background-color: darkcyan;
+  border-radius: 2px;
+  font-size: 15px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.sendButtons:hover{
+  transform: scale(1.1);
+  background-color: rgb(4, 198, 198);
+}
+.buttonSwitch{
+  color: white;
+  border: none;
+  background: none;  
+  cursor: pointer;
+}
+
+.textButtons{
+  margin-left: 70px;
+  color: black;
+}
+
+.logoutButton{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
